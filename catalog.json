@@ -1,5 +1,22 @@
 {
   "schema": "com.ojinsight.community-catalog",
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": "whalica-technique-20260926",
+      "type": "problem-set",
+      "title": "经典技巧大赏",
+      "summary": "算法竞赛技巧集",
+      "author": {
+        "name": "Whalica",
+        "url": null
+      },
+      "categories": [
+        "技巧"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/whalica-technique-20260926.json",
+      "problemCount": 5
+    }
+  ]
 }
