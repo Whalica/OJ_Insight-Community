@@ -1,4 +1,4 @@
-name: Validate community content
+name: Validate and publish community content
 on:
   pull_request:
   push:
@@ -13,4 +13,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node tools/catalog.mjs --check
+      - run: node tools/catalog.mjs > /dev/null
+  publish-catalog:
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/catalog.mjs --write
+      - name: Commit updated catalog
+        run: |
+          if git diff --quiet -- catalog.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "chore: refresh community catalog"
+          git push origin HEAD:main

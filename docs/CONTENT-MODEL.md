@@ -15,6 +15,6 @@ Every entry has a stable lowercase ID, a content type, author, license, summary,
 
 ## Review rules
 
-Authors submit a PR. CI checks syntax, IDs, unique problem identities, links, and a regenerated catalog. A maintainer reviews teaching value, classification, attribution, and license before merging. A PR must not contain user account exports, submission history, private notes, cookies, local paths, or source code.
+Authors submit a PR containing the exported entry. CI checks syntax, IDs, unique problem identities, and links. After a maintainer reviews teaching value, classification, attribution, and license and merges the PR, the publishing workflow regenerates `catalog.json` on `main`. A PR must not contain user account exports, submission history, private notes, cookies, local paths, or source code.
 
 The initial deployment uses raw files from GitHub, not a server or user accounts. If the catalog grows too large, pagination or a versioned CDN index can be added without changing entry IDs or local copies. User ratings, favorites, and comments would need a separate moderation and identity design; they are outside this repository's v1 schema.
