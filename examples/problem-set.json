@@ -1,0 +1,38 @@
+{
+  "schema": "com.ojinsight.community-entry",
+  "schemaVersion": 1,
+  "id": "example-graph-basics",
+  "type": "problem-set",
+  "title": "图论基础练习",
+  "summary": "示例：用一份跨 OJ 题单练习基础图论。请在投稿前替换示例题目。",
+  "author": { "name": "example", "url": "https://github.com/example" },
+  "categories": ["图论", "入门"],
+  "license": "CC-BY-4.0",
+  "sourceUrl": null,
+  "content": {
+    "schema": "com.ojinsight.problem-set",
+    "schemaVersion": 1,
+    "title": "图论基础练习",
+    "description": "示例题单",
+    "setType": "static",
+    "tagVisibility": "after_ac",
+    "sourceSetId": null,
+    "sourceUrl": null,
+    "problems": [
+      {
+        "position": 0,
+        "role": "Core",
+        "note": "",
+        "problem": {
+          "platform": "codeforces",
+          "problemKey": "20:C",
+          "problemId": "20C",
+          "name": "Dijkstra?",
+          "url": "https://codeforces.com/problemset/problem/20/C",
+          "difficulty": null,
+          "tags": []
+        }
+      }
+    ]
+  }
+}

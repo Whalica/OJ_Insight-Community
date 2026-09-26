@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Whalica/OJ_Insight-Community/blob/main/schemas/community-entry.v1.schema.json",
+  "title": "OJ Insight community entry v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "schemaVersion", "id", "type", "title", "summary", "author", "categories", "license", "content"],
+  "properties": {
+    "schema": { "const": "com.ojinsight.community-entry" },
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 100 },
+    "type": { "const": "problem-set" },
+    "title": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": { "name": { "type": "string", "minLength": 1 }, "url": { "type": ["string", "null"], "format": "uri" } }
+    },
+    "categories": { "type": "array", "items": { "type": "string", "minLength": 1 }, "maxItems": 12 },
+    "license": { "type": "string", "minLength": 1 },
+    "sourceUrl": { "type": ["string", "null"], "format": "uri" },
+    "content": { "type": "object" }
+  }
+}
