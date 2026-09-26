@@ -1,0 +1,134 @@
+{
+  "schema": "com.ojinsight.community-entry",
+  "schemaVersion": 1,
+  "id": "whalica-technique-20260926",
+  "type": "problem-set",
+  "title": "经典技巧大赏",
+  "summary": "算法竞赛技巧集",
+  "author": {
+    "name": "Whalica",
+    "url": null
+  },
+  "categories": [
+    "技巧"
+  ],
+  "license": "CC-BY-4.0",
+  "sourceUrl": null,
+  "content": {
+    "description": "存放一些个人认为比较经典的技巧类题。\n\n**注意：可能含有部分脑电波。**",
+    "problems": [
+      {
+        "note": "操作间并不影响，所以我不在意两种操作的顺序。",
+        "position": 0,
+        "problem": {
+          "canonicalId": "luogu:P1095",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "P1095 [NOIP 2007 普及组] 守望者的逃离",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "luogu",
+          "problemId": "P1095",
+          "problemKey": "P1095",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://www.luogu.com.cn/problem/P1095"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "max of max，非最优解一定不大于最优解，所以可以直接忽略一些限制。",
+        "position": 1,
+        "problem": {
+          "canonicalId": "codeforces:1826:D",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "CF1826D Running Miles",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "codeforces",
+          "problemId": "1826D",
+          "problemKey": "1826:D",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://codeforces.com/contest/1826/problem/D"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "注意操作产生的影响和位置的关系，换一个研究主体，转化问题。",
+        "position": 2,
+        "problem": {
+          "canonicalId": "codeforces:2266:D",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "CF2266D Falling Concrete",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "codeforces",
+          "problemId": "2266D",
+          "problemKey": "2266:D",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://codeforces.com/contest/2266/problem/D"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "目标权值受两个部分约束，考虑固定一个部分，问题转化为剩下一部分权值的动态维护。",
+        "position": 3,
+        "problem": {
+          "canonicalId": "atcoder:abc376_e",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "abc376_e Max × Sum",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "atcoder",
+          "problemId": "abc376_e",
+          "problemKey": "abc376_e",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://atcoder.jp/contests/abc376/tasks/abc376_e"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "建模题，分为两个部分，转化为带限制的二分图染色问题。",
+        "position": 4,
+        "problem": {
+          "canonicalId": "codeforces:1702:E",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "CF1702E Split Into Two Sets",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "codeforces",
+          "problemId": "1702E",
+          "problemKey": "1702:E",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://codeforces.com/contest/1702/problem/E"
+        },
+        "role": "Core"
+      }
+    ],
+    "schema": "com.ojinsight.problem-set",
+    "schemaVersion": 1,
+    "setType": "static",
+    "sourceSetId": null,
+    "sourceUrl": null,
+    "tagVisibility": "after_ac",
+    "title": "经典技巧大赏"
+  }
+}
