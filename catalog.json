@@ -17,6 +17,329 @@
       "license": "CC-BY-4.0",
       "path": "content/problem-sets/whalica-technique-20260926.json",
       "problemCount": 5
+    },
+    {
+      "id": "yanami-anna-01",
+      "type": "problem-set",
+      "title": "算法训练 01｜实现基础与问题表示",
+      "summary": "23 道题，涵盖模拟与状态表示、坐标、进制与编码、前缀和、差分与扫描，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "实现基础与问题表示"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-01.json",
+      "problemCount": 23
+    },
+    {
+      "id": "yanami-anna-02",
+      "type": "problem-set",
+      "title": "算法训练 02｜枚举、搜索与状态空间",
+      "summary": "25 道题，涵盖枚举与剪枝、状态图与双向搜索、折半搜索、精确覆盖与启发式搜索，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "枚举、搜索与状态空间"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-02.json",
+      "problemCount": 25
+    },
+    {
+      "id": "yanami-anna-03",
+      "type": "problem-set",
+      "title": "算法训练 03｜贪心、二分与构造证明",
+      "summary": "45 道题，涵盖不变量与构造上下界、排序与交换论证、区间覆盖与反悔、单调判定与分式优化，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "贪心、二分与构造证明"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-03.json",
+      "problemCount": 45
+    },
+    {
+      "id": "yanami-anna-04",
+      "type": "problem-set",
+      "title": "算法训练 04｜动态规划：状态、分解与优化",
+      "summary": "59 道题，涵盖线性与网格状态、背包与代价建模、区间分解、数位、集合与轮廓状态、转移优化与决策单调性，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "动态规划：状态、分解与优化"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-04.json",
+      "problemCount": 59
+    },
+    {
+      "id": "yanami-anna-05",
+      "type": "problem-set",
+      "title": "算法训练 05｜数据结构与区间信息维护",
+      "summary": "47 道题，涵盖基础容器与有序结构、树状数组与顺序统计、线段树与信息合并、平衡树、可并堆与条件懒标记，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "数据结构与区间信息维护"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-05.json",
+      "problemCount": 47
+    },
+    {
+      "id": "yanami-anna-06",
+      "type": "problem-set",
+      "title": "算法训练 06｜离线、持久化与动态维护",
+      "summary": "32 道题，涵盖排序扫描与多维偏序、分块、莫队与重轻分类、持久化与在线查询、回滚、时间分治与动态森林，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "离线、持久化与动态维护"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-06.json",
+      "problemCount": 32
+    },
+    {
+      "id": "yanami-anna-07",
+      "type": "problem-set",
+      "title": "算法训练 07｜图论建模与图的结构",
+      "summary": "48 道题，涵盖连通性与并查集、最短路与状态分层、拓扑与函数图、生成树与欧拉路、桥、割点与强连通，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "图论建模与图的结构"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-07.json",
+      "problemCount": 48
+    },
+    {
+      "id": "yanami-anna-08",
+      "type": "problem-set",
+      "title": "算法训练 08｜树上结构、递推与路径",
+      "summary": "27 道题，涵盖树的结构与路径计数、树形背包与换根、倍增、树链剖分与差分、虚树、点分治与启发式合并，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "树上结构、递推与路径"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-08.json",
+      "problemCount": 27
+    },
+    {
+      "id": "yanami-anna-09",
+      "type": "problem-set",
+      "title": "算法训练 09｜匹配、网络流与约束系统",
+      "summary": "24 道题，涵盖二分图匹配与覆盖、割与闭合子图、费用与上下界流、差分约束、势函数与2-SAT，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "匹配、网络流与约束系统"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-09.json",
+      "problemCount": 24
+    },
+    {
+      "id": "yanami-anna-10",
+      "type": "problem-set",
+      "title": "算法训练 10｜字符串结构与自动机",
+      "summary": "37 道题，涵盖前后缀与消去、Trie、KMP与Z函数、自动机与字符串计数、后缀结构与回文结构，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "字符串结构与自动机"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-10.json",
+      "problemCount": 37
+    },
+    {
+      "id": "yanami-anna-11",
+      "type": "problem-set",
+      "title": "算法训练 11｜代数变形与求和技巧",
+      "summary": "31 道题，涵盖标准化、换元与分段、贡献法、换序与双计数、差分、望远镜与离散求和、不等式、凸性与最优性，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "代数变形与求和技巧"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-11.json",
+      "problemCount": 31
+    },
+    {
+      "id": "yanami-anna-12",
+      "type": "problem-set",
+      "title": "算法训练 12｜组合结构与计数证明",
+      "summary": "33 道题，涵盖乘法原理与双射、容斥与补集计数、集合划分与非交叉结构、置换、群作用与对称计数，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "组合结构与计数证明"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-12.json",
+      "problemCount": 33
+    },
+    {
+      "id": "yanami-anna-13",
+      "type": "problem-set",
+      "title": "算法训练 13｜整数、整除与模运算",
+      "summary": "47 道题，涵盖整除结构、筛法与质因数、同余、逆元与中国剩余定理、积性函数、反演与整除分块、群阶、离散对数与整数格，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "整数、整除与模运算"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-13.json",
+      "problemCount": 47
+    },
+    {
+      "id": "yanami-anna-14",
+      "type": "problem-set",
+      "title": "算法训练 14｜概率、期望与随机过程",
+      "summary": "28 道题，涵盖指标变量与期望线性性、条件期望、自环与状态方程、尾和、二阶矩与协方差、随机过程与策略优化，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "概率、期望与随机过程"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-14.json",
+      "problemCount": 28
+    },
+    {
+      "id": "yanami-anna-15",
+      "type": "problem-set",
+      "title": "算法训练 15｜博弈与状态价值",
+      "summary": "11 道题，涵盖极小极大与胜负递推、SG函数与游戏分解、阈值博弈与结构化状态，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "博弈与状态价值"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-15.json",
+      "problemCount": 11
+    },
+    {
+      "id": "yanami-anna-16",
+      "type": "problem-set",
+      "title": "算法训练 16｜线性代数与递推",
+      "summary": "19 道题，涵盖线性关系与消元、线性基、零空间与仿射空间、矩阵、递推与插值，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "线性代数与递推"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-16.json",
+      "problemCount": 19
+    },
+    {
+      "id": "yanami-anna-17",
+      "type": "problem-set",
+      "title": "算法训练 17｜卷积、变换与生成函数",
+      "summary": "17 道题，涵盖普通卷积与系数计数、集合变换与单位根筛、普通、指数与概率生成函数、形式幂级数与连通分解，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "卷积、变换与生成函数"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-17.json",
+      "problemCount": 17
+    },
+    {
+      "id": "yanami-anna-18",
+      "type": "problem-set",
+      "title": "算法训练 18｜几何建模与数值推导",
+      "summary": "29 道题，涵盖距离、圆与精确判定、面积、叉积与质心、凸包、卡壳与半平面、连续优化、积分与误差，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "几何建模与数值推导"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-18.json",
+      "problemCount": 29
+    },
+    {
+      "id": "yanami-anna-19",
+      "type": "problem-set",
+      "title": "算法训练 19｜交互、输出构造与随机算法",
+      "summary": "10 道题，涵盖信息下界与交互策略、输出构造与通信协议、启发式搜索与增量评分、随机算法与概率保证，按小专题安排练习。",
+      "author": {
+        "name": "yanami-anna-meow",
+        "url": "https://github.com/yanami-anna-meow"
+      },
+      "categories": [
+        "算法训练",
+        "交互、输出构造与随机算法"
+      ],
+      "license": "CC-BY-4.0",
+      "path": "content/problem-sets/yanami-anna-19.json",
+      "problemCount": 10
     }
   ]
 }
