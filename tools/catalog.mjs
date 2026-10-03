@@ -4,7 +4,7 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const contentRoot = path.join(root, 'content');
 const allowedTypes = new Map([['problem-set', 'problem-sets']]);
-const supportedPlatforms = new Set(['codeforces', 'atcoder', 'luogu', 'nowcoder', 'qoj', 'leetcode']);
+const supportedPlatforms = new Set(['codeforces', 'atcoder', 'luogu', 'nowcoder', 'qoj', 'leetcode', 'other']);
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 async function entriesIn(dir) {
