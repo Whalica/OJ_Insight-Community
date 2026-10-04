@@ -7,9 +7,24 @@ const allowedTypes = new Map([['problem-set', 'problem-sets']]);
 const supportedPlatforms = new Set(['codeforces', 'atcoder', 'luogu', 'nowcoder', 'qoj', 'leetcode', 'other']);
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
-async function entriesIn(dir) {
-  try { return (await readdir(dir, { withFileTypes: true })).filter((item) => item.isFile() && item.name.endsWith('.json')).map((item) => item.name).sort(); }
+async function entriesIn(dir, prefix = '') {
+  let items;
+  try { items = await readdir(dir, { withFileTypes: true }); }
   catch (error) { if (error.code === 'ENOENT') return []; throw error; }
+  const files = [];
+  for (const item of items.sort((a, b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) {
+    if (item.isDirectory()) {
+      if (!validFolder(item.name)) throw Error(`${prefix}${item.name}: invalid folder name`);
+      files.push(...await entriesIn(path.join(dir, item.name), `${prefix}${item.name}/`));
+    } else if (item.isFile() && item.name.endsWith('.json')) {
+      files.push(`${prefix}${item.name}`);
+    }
+  }
+  return files;
+}
+
+function validFolder(name) {
+  return name.length > 0 && name.length <= 80 && name.trim() === name && name !== '.' && name !== '..' && [...name].every((char) => /[\p{L}\p{N} _.-]/u.test(char));
 }
 
 function validate(entry, relativePath, knownIds) {
@@ -38,11 +53,11 @@ const knownIds = new Set();
 for (const directory of allowedTypes.values()) {
   for (const file of await entriesIn(path.join(contentRoot, directory))) {
     const relativePath = `content/${directory}/${file}`;
-    if (file.length > 120) throw Error(`${relativePath}: filename too long`);
+    if (relativePath.length > 512 || path.posix.basename(file).length > 120) throw Error(`${relativePath}: path too long`);
     const raw = await readFile(path.join(root, relativePath), 'utf8');
     if (Buffer.byteLength(raw) > 512_000) throw Error(`${relativePath}: file too large`);
     const entry = JSON.parse(raw);
-    if (`${entry.id}.json` !== file) throw Error(`${relativePath}: filename must match id`);
+    if (`${entry.id}.json` !== path.posix.basename(file)) throw Error(`${relativePath}: filename must match id`);
     catalog.entries.push(validate(entry, relativePath, knownIds));
   }
 }
@@ -50,5 +65,5 @@ const output = `${JSON.stringify(catalog, null, 2)}\n`;
 const catalogPath = path.join(root, 'catalog.json');
 if (process.argv.includes('--write')) await writeFile(catalogPath, output);
 else if (process.argv.includes('--check')) {
-  if (await readFile(catalogPath, 'utf8') !== output) throw Error('catalog.json is stale; run node tools/catalog.mjs --write');
+  if ((await readFile(catalogPath, 'utf8')).replace(/\r\n/g, '\n') !== output) throw Error('catalog.json is stale; run node tools/catalog.mjs --write');
 } else process.stdout.write(output);

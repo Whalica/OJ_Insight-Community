@@ -5,7 +5,7 @@ Community content for [OJ Insight](https://github.com/Whalica/OJ_Insight). This 
 ## Publish a problem set
 
 1. Export a problem set JSON from OJ Insight.
-2. Sign in to GitHub and fork this repository. Open your fork, navigate to `content/problem-sets/`, and choose **Add file → Upload files**. Upload the JSON exported by OJ Insight without editing it. Its filename must be `<id>.json`, matching the `id` inside the file.
+2. Sign in to GitHub and fork this repository. Open your fork, navigate to `content/problem-sets/` or a folder beneath it, and choose **Add file → Upload files**. Upload the JSON exported by OJ Insight without editing it. Its filename must be `<id>.json`, matching the `id` inside the file. Nested folders organize the catalog; they do not change the problem-set JSON.
 3. Commit the upload to a new branch. Choose **Contribute → Open pull request**, with `Whalica/OJ_Insight-Community` `main` as the base. GitHub Actions checks the entry. The maintainer reviews every PR before merging.
 
 No LLM, local Node installation, or manual `catalog.json` edit is needed for a web submission. After an approved PR is merged, GitHub Actions regenerates and commits `catalog.json` on `main`, which makes the entry visible in OJ Insight. Maintainers can also run `node tools/catalog.mjs --write` locally if the publishing action cannot write to `main`.
