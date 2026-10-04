@@ -32,7 +32,7 @@
         "实现基础与问题表示"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-01.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-01.json",
       "problemCount": 23
     },
     {
@@ -49,7 +49,7 @@
         "枚举、搜索与状态空间"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-02.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-02.json",
       "problemCount": 25
     },
     {
@@ -66,7 +66,7 @@
         "贪心、二分与构造证明"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-03.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-03.json",
       "problemCount": 45
     },
     {
@@ -83,7 +83,7 @@
         "动态规划：状态、分解与优化"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-04.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-04.json",
       "problemCount": 59
     },
     {
@@ -100,7 +100,7 @@
         "数据结构与区间信息维护"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-05.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-05.json",
       "problemCount": 47
     },
     {
@@ -117,7 +117,7 @@
         "离线、持久化与动态维护"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-06.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-06.json",
       "problemCount": 32
     },
     {
@@ -134,7 +134,7 @@
         "图论建模与图的结构"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-07.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-07.json",
       "problemCount": 48
     },
     {
@@ -151,7 +151,7 @@
         "树上结构、递推与路径"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-08.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-08.json",
       "problemCount": 27
     },
     {
@@ -168,7 +168,7 @@
         "匹配、网络流与约束系统"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-09.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-09.json",
       "problemCount": 24
     },
     {
@@ -185,7 +185,7 @@
         "字符串结构与自动机"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-10.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-10.json",
       "problemCount": 37
     },
     {
@@ -202,7 +202,7 @@
         "代数变形与求和技巧"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-11.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-11.json",
       "problemCount": 31
     },
     {
@@ -219,7 +219,7 @@
         "组合结构与计数证明"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-12.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-12.json",
       "problemCount": 33
     },
     {
@@ -236,7 +236,7 @@
         "整数、整除与模运算"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-13.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-13.json",
       "problemCount": 47
     },
     {
@@ -253,7 +253,7 @@
         "概率、期望与随机过程"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-14.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-14.json",
       "problemCount": 28
     },
     {
@@ -270,7 +270,7 @@
         "博弈与状态价值"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-15.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-15.json",
       "problemCount": 11
     },
     {
@@ -287,7 +287,7 @@
         "线性代数与递推"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-16.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-16.json",
       "problemCount": 19
     },
     {
@@ -304,7 +304,7 @@
         "卷积、变换与生成函数"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-17.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-17.json",
       "problemCount": 17
     },
     {
@@ -321,7 +321,7 @@
         "几何建模与数值推导"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-18.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-18.json",
       "problemCount": 29
     },
     {
@@ -338,7 +338,7 @@
         "交互、输出构造与随机算法"
       ],
       "license": "CC-BY-4.0",
-      "path": "content/problem-sets/yanami-anna-19.json",
+      "path": "content/problem-sets/八奈见的综合训练题单/yanami-anna-19.json",
       "problemCount": 10
     }
   ]
