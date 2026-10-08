@@ -121,6 +121,69 @@
           "url": "https://codeforces.com/contest/1702/problem/E"
         },
         "role": "Core"
+      },
+      {
+        "note": "利用绝对值求和式的特性，每个节点的值只能是两个端点值的其中一种，将值域优化到2，然后就是简单的树形dp。",
+        "position": 5,
+        "problem": {
+          "canonicalId": "codeforces:1528:A",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "CF1528A Parsa's Humongous Tree",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "codeforces",
+          "problemId": "1528A",
+          "problemKey": "1528:A",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://codeforces.com/contest/1528/problem/A"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "真的需要一个个算吗，合法的答案是否满足一些集体性特征？",
+        "position": 6,
+        "problem": {
+          "canonicalId": "qoj:https://qoj.ac/contest/1435/problem/7735/statement/zh_cn",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "2023 ICPC 南京区域赛 C 原根",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "qoj",
+          "problemId": "zh_cn",
+          "problemKey": "https://qoj.ac/contest/1435/problem/7735/statement/zh_cn",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://qoj.ac/contest/1435/problem/7735/statement/zh_cn"
+        },
+        "role": "Core"
+      },
+      {
+        "note": "转化式子，我们完全可以固定最小值/最大值来进行统计，从而想到对数组排序，便于计数。",
+        "position": 7,
+        "problem": {
+          "canonicalId": "codeforces:1462:E2",
+          "difficulty": null,
+          "implementationLoad": null,
+          "interactive": false,
+          "knowledgeDependency": null,
+          "name": "CF1462E2 Close Tuples (hard version)",
+          "observationDependency": null,
+          "outputOnly": false,
+          "platform": "codeforces",
+          "problemId": "1462E2",
+          "problemKey": "1462:E2",
+          "tags": [],
+          "trainingSuitability": null,
+          "url": "https://codeforces.com/contest/1462/problem/E2"
+        },
+        "role": "Core"
       }
     ],
     "schema": "com.ojinsight.problem-set",
